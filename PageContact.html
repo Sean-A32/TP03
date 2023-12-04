@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="Contact.css" type="text.css">
 </head>
 <body>
-    <th width="100" ><a href="PageDaccueil.html">Accueil</a></th>
+    <div class="flexboxHaut">
+        <th width="100" ><a href="PageDaccueil.html">Accueil</a></th>
+        <th width="100" ><a href="PageContact.html">Contact</a></th>
+        <th width="100" ><a href="PageAPropros.html">À propos</a></th>
+        <th width="100" ><a href="PageExtrat.html">Extra</a></th>
+    </div>
+
+    <!--Intro titre-->
+    <h1>Assistance</h1>
+    <h3>Comment pouvons-nous vous aider?</h3>
+
+    <!--Question 1-->
+    <form>
+        <fieldset>
+        <label for="adresseMail">Adresse mail*</label>
+        <br>
+        <input type="mail" name="adresseMail" id="adresseMail" placeholder="Votre adresse..." required><br>
+        </fieldset>
+        <br>
+        <br>
+
+        <label for="probleme">Quels sont vos problème?*</label>
+        <br>
+        <input type="checkbox" name="visuel" id="visuel"><label for="visuel">Un bug visuel</label><br>
+        <input type="checkbox" name="glitch" id="glitch"><label for="glitch">Un glitch vous empêche d'avancer</label><br>
+        <input type="checkbox" name="disque" id="disque"><label for="disque">Votre copie du disque de jeu est égratigner</label><br>
+        <input type="checkbox" name="achat" id="achat"><label for="achat">Votre achat en ligne ne fonctionne pas</label><br>
+        <input type="checkbox" name="autre" id="autre"><label for="autre"></label><input type="text" placeholder="Autre..."><br>
+        <br>
+        <br>
+
+        <label for="recevoir">Comment préféré vous recevoir l'assistance*</label>
+        <br>
+        <input type="radio" name="opt mail" value="opt mail" id="opt mail"> <label for="opt mail">Email</label><br>
+        <input type="radio" name="opt tel" value="opt tel" id="opt tel"> <label for="opt tel">Téléphone:</label><input type="tel" placeholder="Numéro..."><br>
+        <br>
+        <br>
+
+        <label for="aide">Est-ce que ce formulaire vous à aidé?</label><br>
+        <div class="flexbox4">
+            <th>1</th>
+            <th>2</th>
+            <th>3</th>
+            <th>4</th>
+            <th>5</th>
+            <th>6</th>
+            <th>7</th>
+            <th>8</th>
+            <th>9</th>
+            <th>10</th>
+        </div>
+        <input type="range" min="1" max="10">
+
+        <br>
+        <br>
+        <input type="submit" value="Envoyer">
+    </form>
 </body>
 </html>

@@ -1,3 +1,11 @@
-.background{
- background-color: black;
+.backImage1{
+    background-image: url();
+}
+
+.flexboxHaut{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
 }
