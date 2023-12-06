@@ -2,13 +2,41 @@
     background-image: url();
 }
 
-.flexboxHaut{
+.backImage2{
+    background-image: url();
+}
+
+.flexboxGeneral{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
     
 }
-.test{
+
+.backText{
+    background: rgba(0, 0, 0, 0.807)
+}
+
+.Section2{
     background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.hautDePageFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    border-top: 100px;
+    border-top-color: rgb(172, 139, 86);
+}
+
+p{
+    color: white;
 }
