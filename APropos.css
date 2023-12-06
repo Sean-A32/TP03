@@ -16,31 +16,67 @@
 }
 
 .ButduProject{
-    
+
     text-align: center;
-    background-image: url('Images/PageAproposImage1.webp');   
-    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+     background-image: url('Images/PageAproposImage1.webp');
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    padding-top: 600px;
 }
 
 .PremierLien{
     text-align: left;
-    background-image: url('Images/PageAproposImage2.jpg');   
- 
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+     background-image: url('Images/PageAproposImage2.jpg');
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    padding-top: 600px;
 }
-
 .DeuxiemeLien{
     text-align: right;
-    background-image: url(''); 
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+     background-image: url('Images/PageAproposImage3.jpg');
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    padding-top: 600px;
 }
 
 .RoleSean{
     text-align: left;
-    background-image: url('Images/PageAproposImage4.webp'); 
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+     background-image: url('Images/PageAproposImage4.webp');
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    padding-top: 600px;
 }
 
 .RoleAlexis{
     text-align: left;
-  background-image: url('Images/PageAproposImage5.webp'); 
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+     background-image: url('Images/PageAproposImage5.webp');
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    padding-top: 600px;
  
 }
 
