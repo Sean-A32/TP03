@@ -1,9 +1,6 @@
 .backImage1{
     background-image: url('Images/FondPageAccueil1.jpg');
-}
-
-.backImage2{
-    background-image: url('Images/FondPageAccueil2.webp');
+    padding: 100px;
 }
 
 .flexboxGeneral{
@@ -15,6 +12,17 @@
 }
 
 .backText{
+    width: 300px;
+    background: rgba(0, 0, 0, 0.807)
+}
+
+.section1{
+    background-image: url('Images/FondPageAccueil1.jpg');
+}
+
+.text1{
+    padding-left: 1500px;
+    width: -500px;
     background: rgba(0, 0, 0, 0.807)
 }
 
@@ -39,6 +47,17 @@
 
 p{
     color: white;
+}
+
+.flexbox3{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-image: url('Images/FondPageAccueil3.jpg');
+    background-repeat: no-repeat;
+    background-size: 2000px 1000px;
+    padding-top: 600px;
 }
 
 .basDePageFlex{
