@@ -22,35 +22,39 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    padding-bottom: 600px;
+    padding-top: 160px;
      background-image: url('Images/PageAproposImage1.webp');
     background-repeat: no-repeat;
     background-size: 2000px 1000px;
-    padding-top: 600px;
+   
 }
 
 .PremierLien{
-    text-align: left;
-    text-align: center;
+
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding-bottom: 600px;
+    padding-top: 160px;
      background-image: url('Images/PageAproposImage2.jpg');
     background-repeat: no-repeat;
     background-size: 2000px 1000px;
-    padding-top: 600px;
+    
 }
 .DeuxiemeLien{
-    text-align: right;
-    text-align: center;
+    border: black;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: flex-end;
+    padding-bottom: 600px;
+    padding-top: 160px;
      background-image: url('Images/PageAproposImage3.jpg');
     background-repeat: no-repeat;
     background-size: 2000px 1000px;
-    padding-top: 600px;
+  
 }
 
 .RoleSean{
@@ -59,11 +63,12 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: flex-start;
      background-image: url('Images/PageAproposImage4.webp');
     background-repeat: no-repeat;
     background-size: 2000px 1000px;
-    padding-top: 600px;
+    padding-bottom: 600px;
+    padding-top: 100px;
 }
 
 .RoleAlexis{
@@ -72,23 +77,35 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
+    justify-content: flex-start;
+    padding-bottom: 600px;
+    padding-top: 160px;
      background-image: url('Images/PageAproposImage5.webp');
     background-repeat: no-repeat;
     background-size: 2000px 1000px;
-    padding-top: 600px;
+
  
 }
 
 p{
+
     color: white;
+}
+
+.boitenoir{
+    border: 1px solid black;
 }
 
 .basDePageFlex{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
- 
+    justify-content: space-evenly;
     color: white;
    background-color: black;
+   
+}
+
+.gold{
+    background-color: rgb(172, 139, 86);
 }
