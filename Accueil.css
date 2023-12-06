@@ -1,6 +1,8 @@
 .backImage1{
     background-image: url('Images/FondPageAccueil1.jpg');
-    padding: 100px;
+    background-repeat: no-repeat;
+    padding: 200px;
+    margin-bottom: 150px;
 }
 
 .flexboxGeneral{
@@ -27,16 +29,21 @@
     justify-content: left;
     text-align: left;
     margin-left: 1400px;
-    background: rgba(0, 0, 0, 0.807)
+    background: rgba(0, 0, 0, 0.807);
 }
 
 .Section2{
     background-color: black;
-    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+}
+
+.back2{
+    background-color: black;
+    padding-top: 150px;
+    padding-bottom: 150px;
 }
 
 .hautDePageFlex{
@@ -45,7 +52,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
 
-    border-top: 100px;
+    border-top: 1000px;
     border-top-color: rgb(172, 139, 86);
 }
 
@@ -75,11 +82,11 @@ p{
 
 .rot90{
     -webkit-transform: rotate(90deg);
-    width: 700px;
+    width: 600px;
     align-content: right;
 }
 
 .rot-90{
     -webkit-transform: rotate(-90deg);
-    width: 700px;
+    width: 600px;
 }
