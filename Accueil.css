@@ -1,9 +1,9 @@
 .backImage1{
-    background-image: url();
+    background-image: url('Images/FondPageAccueil1.jpg');
 }
 
 .backImage2{
-    background-image: url();
+    background-image: url('Images/FondPageAccueil2.webp');
 }
 
 .flexboxGeneral{
@@ -39,4 +39,13 @@
 
 p{
     color: white;
+}
+
+.basDePageFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ 
+    color: white;
+   background-color: black;
 }

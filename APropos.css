@@ -7,3 +7,52 @@
     border-top: 100px;
     border-top-color: rgb(172, 139, 86);
 }
+
+.flexboxdelaPage{
+  
+   
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.807)
+}
+
+.ButduProject{
+    
+    text-align: center;
+    background-image: url('Images/PageAproposImage1.webp');   
+    
+}
+
+.PremierLien{
+    text-align: left;
+    background-image: url('Images/PageAproposImage2.jpg');   
+ 
+}
+
+.DeuxiemeLien{
+    text-align: right;
+    background-image: url(''); 
+}
+
+.RoleSean{
+    text-align: left;
+    background-image: url('Images/PageAproposImage4.webp'); 
+}
+
+.RoleAlexis{
+    text-align: left;
+  background-image: url('Images/PageAproposImage5.webp'); 
+ 
+}
+
+p{
+    color: white;
+}
+
+.basDePageFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ 
+    color: white;
+   background-color: black;
+}

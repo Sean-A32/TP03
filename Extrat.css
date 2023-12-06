@@ -7,3 +7,23 @@
     border-top: 100px;
     border-top-color: rgb(172, 139, 86);
 }
+
+
+
+.txtPageExtrat{
+    background-color: rgba(33, 145, 251, 1);
+}
+
+p{
+    text-align: center;
+    color: white;
+}
+
+.basDePageFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ 
+    color: white;
+   background-color: black;
+}
