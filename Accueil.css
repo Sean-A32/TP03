@@ -1,8 +1,7 @@
 .backImage1{
     background-image: url('Images/FondPageAccueil1.jpg');
     background-repeat: no-repeat;
-    padding: 200px;
-    margin-bottom: 150px;
+    background-size: 2000px 1000px;
 }
 
 .flexboxGeneral{
