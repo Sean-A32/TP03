@@ -3,13 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="Accueil.css" type="text/css">
 </head>
 <body>
 
 <!--Barre de navigation-->
 
-    <div class="New Flexbox">
+    <div class="hautDePageFlex">
+        <input type = "text" placeholder="Recherche...">
         <th width="100" ><a href="PageDaccueil.html">Accueil</a></th>
         <th width="100" ><a href="PageContact.html">Contact</a></th>
         <th width="100" ><a href="PageAPropros.html">À propos</a></th>
@@ -17,7 +19,7 @@
     </div>
 
     <!--Texte section 1-->
-<p>Ghost of Tsuchima est un jeu d’action <br>
+<p class="backText">Ghost of Tsuchima est un jeu d’action <br>
     intense qui ne pardonne pas les erreurs. <br>
     Prenez le contrôle de Jin Sakai, un <br>
     samurai prit en plein milieu de l’invasion <br>
@@ -29,16 +31,59 @@
     historiques reconnus par des experts <br>
     dans cette aventure unique.</p>
 
+    <!--Section 2 (video ytb)-->
+    <div class="section2" >
+        <th><img src="" alt="Photo d'epée"></th>
+        <th><iframe 
+            width="560" 
+            height="315" 
+            src="https://www.youtube.com/embed/b_iU_gnn28U?si=Ep4tAyRkUNVQwy60" 
+            title="YouTube video player" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+            allowfullscreen>
+            </iframe></th>
+        <th><img src="" alt="Photo d'epée inverser"></th>
+    </div>
+
     <!--Texte section 3-->
-    <p>Jouer avec des amis grâce au mode <br>
-        “Legend”. Choisisser de 4 puissantes <br>
-        classes et travailler en équipe pour <br>
-        accomplir des quêtes épiques. Les <br>
-        aventures du mode “Legende” sont <br>
-        inspirées de la mythologie japonaise, <br>
-        vous allez combattre des démons et <br>
-        trouver des artéfacts légendaires au <br>
-        coter de vos amis.</p>
+    <div class="flexboxGeneral">
+        <th><p class="backText">Jouer avec des amis grâce au mode <br>
+            “Legend”. Choisisser de 4 puissantes <br>
+            classes et travailler en équipe pour <br>
+            accomplir des quêtes épiques. Les <br>
+            aventures du mode “Legende” sont <br>
+            inspirées de la mythologie japonaise, <br>
+            vous allez combattre des démons et <br>
+            trouver des artéfacts légendaires au <br>
+            coter de vos amis.</p></th>
+        <th><img src="Images/FondPageAccueil2.webp" alt="Photo de Jin Sakai" width="500px"></th>
+    </div>
+
+    <!--Bas de page--> 
+    <div class="basDePageFlex">
+        <table>
+          <tr>
+        <th ><a href="https://www.suckerpunch.com" target="_blank"><img src="Images/SuckerPunchLogo.jpg" alt="SuckerPunchLogo" style="width: 300px; "></a></th>
+        <th ><a href="https://www.playstation.com/en-ca/" target="_blank"><img src="Images/PlayStationLogo.png" alt="PlayStationLogo" style="width: 200px; "></a></th>
+        <th ><a href="PageContact.html">Contact<br>Assistance</a></th>
+        <th ><a href="PageAPropros.html">À propos</a></th>
+        <th ><a href="PageExtrat.html">Connexion</a></th>
+        <th ><img src="Images/esrb.png" alt="esrb" style="width: 100px; "></th>
+        <th ><img src="Images/Peggie.png" alt="Peggie" style="width: 100px; "></th>
+      </tr>
+       <tr>
+        <th ></th>
+        <th ></th>
+        <th ></th>
+        <th ></th>
+        <th ><a href="https://www.facebook.com" target="_blank"><img src="Images/facebook.png" alt="facebooklogo" style="width: 100px; "></a></th>
+        <th ><a href="https://twitter.com" target="_blank"><img src="Images/twitterlogo.png" alt="twitterlogo" style="width: 100px; "></a></th>
+        <th ></th>
+      </tr>
+    </table>
+    </div> 
+    
 
 </body>
 </html>

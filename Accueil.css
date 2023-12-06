@@ -1,0 +1,51 @@
+.backImage1{
+    background-image: url('Images/FondPageAccueil1.jpg');
+}
+
+.backImage2{
+    background-image: url('Images/FondPageAccueil2.webp');
+}
+
+.flexboxGeneral{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    
+}
+
+.backText{
+    background: rgba(0, 0, 0, 0.807)
+}
+
+.Section2{
+    background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+
+.hautDePageFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+
+    border-top: 100px;
+    border-top-color: rgb(172, 139, 86);
+}
+
+p{
+    color: white;
+}
+
+.basDePageFlex{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+ 
+    color: white;
+   background-color: black;
+}
