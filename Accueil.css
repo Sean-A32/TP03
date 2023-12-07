@@ -1,5 +1,13 @@
 .backImage1{
-    background-image: url('Images/FondPageAccueil1.jpg');
+
+   
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    padding-bottom: 600px;
+    padding-top: 160px;
+     background-image: url('Images/FondPageAccueil1.jpg');
     background-repeat: no-repeat;
     background-size: 2000px 1000px;
 }
@@ -74,9 +82,10 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
- 
+    justify-content: space-evenly;
     color: white;
    background-color: black;
+   
 }
 
 .rot90{

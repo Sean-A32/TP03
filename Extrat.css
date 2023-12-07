@@ -26,7 +26,8 @@ p{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
- 
+    justify-content: space-evenly;
     color: white;
    background-color: black;
+   
 }

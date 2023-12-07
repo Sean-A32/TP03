@@ -18,17 +18,15 @@
     border-top-color: rgb(172, 139, 86);
 }
 
-
 .basDePageFlex{
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;
- 
+    justify-content: space-evenly;
     color: white;
    background-color: black;
+   
 }
-
 .question{
     padding-left: 200px;
     color: white;
