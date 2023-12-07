@@ -99,6 +99,14 @@ p{
     opacity: 80%;
 }
 
+.PeggieEtEsrb{
+    padding-left: 200px;
+}
+
+.Logos{
+    padding-right: 370px;
+}
+
 .basDePageFlex{
     display: flex;
     flex-direction: row;

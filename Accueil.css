@@ -58,10 +58,10 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
+    background-color:  rgb(172, 139, 86);
 
-    border-top: 1000px;
-    border-top-color: rgb(172, 139, 86);
 }
+
 
 p{
     color: white;
@@ -78,6 +78,13 @@ p{
     padding-top: 600px;
 }
 
+.PeggieEtEsrb{
+    padding-left: 200px;
+}
+
+.Logos{
+    padding-right: 370px;
+}
 .basDePageFlex{
     display: flex;
     flex-direction: row;

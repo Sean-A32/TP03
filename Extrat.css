@@ -4,8 +4,7 @@
     flex-wrap: nowrap;
     justify-content: space-around;
 
-    border-top: 100px;
-    border-top-color: rgb(172, 139, 86);
+    background-color:  rgb(172, 139, 86);
 }
 
 .gold{
@@ -15,11 +14,20 @@
 
 .txtPageExtrat{
     background-color: rgba(33, 145, 251, 1);
+   
 }
 
 p{
     text-align: center;
     color: white;
+}
+
+.PeggieEtEsrb{
+    padding-left: 200px;
+}
+
+.Logos{
+    padding-right: 370px;
 }
 
 .basDePageFlex{
